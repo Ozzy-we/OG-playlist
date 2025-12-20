@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-theme-red: #dc2626;
+  --color-theme-black: #0F0D0E;
+  --color-theme-yellow: #fbbf24;
+  --color-theme-yellow-hover: #f59e0b;
+  
+  --font-family-sans: 'Cinzel', serif;
+  --font-family-heading: 'Cinzel', serif;
+}
