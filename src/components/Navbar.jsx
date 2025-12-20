@@ -7,7 +7,11 @@ function Navbar(){
                 <li><a href="#music" className="text-theme-red text-3xl font-semibold tracking-wide uppercase">Music</a></li>
                 <li><a href="#video" className="text-theme-red text-3xl font-semibold tracking-wide uppercase">Video</a></li>
             </ul>
+            
+                
         </nav>
+        
+        
     )
 }
 export default Navbar;
