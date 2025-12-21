@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import NewAlbum from './components/NewAlbum';
+import Merch from './components/Merch';
 
 function App(){
   return(
@@ -8,6 +9,7 @@ function App(){
       <Navbar />
       <Hero />
       <NewAlbum />
+      <Merch />
     </div>
   )
 }
