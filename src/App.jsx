@@ -2,14 +2,16 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import NewAlbum from './components/NewAlbum';
 import Merch from './components/Merch';
+import Newsingle from './components/Newsingle';
 
 function App(){
   return(
-    <div className="min-h-screen w-full bg-theme-black">
+    <div className="min-h-screen w-full bg-theme-black overflow-x-hidden">
       <Navbar />
       <Hero />
       <NewAlbum />
       <Merch />
+      <Newsingle />
     </div>
   )
 }
