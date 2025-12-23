@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import NewAlbum from './components/NewAlbum';
 import Merch from './components/Merch';
 import Newsingle from './components/Newsingle';
+import Footer from './components/Footer';
 
 function App(){
   return(
@@ -12,6 +13,7 @@ function App(){
       <NewAlbum />
       <Merch />
       <Newsingle />
+      <Footer />
     </div>
   )
 }
